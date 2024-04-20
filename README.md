@@ -3,7 +3,7 @@
 
  ## File structure
 
- `Non-technical/`:
- `Technical/`:
+ - `Non-technical/`:
+ - `Technical/`:
 
 
