@@ -2,7 +2,7 @@
 
 When I was young, a friend gave me a puzzle, `how many handshakes are there in a meeting of 10 persons where everyone must shake  shake hands once and only once?` . That time I had no means that I could find the answer really fast. [pause a minute to try to find the answer].
 
-At _first glance the only_ efficient way for the persons to shake hands is to line them in order something like a line.
+The efficient way for the persons to shake hands is to line them in order something like a line.
 
 [[image]]
 
@@ -20,9 +20,12 @@ The interesting result is that $\binom{M}{2} = \frac{M(M-1)}{2}$
 
 There exists other proofs that find the same result but i found this interesting enough because it is found while solving a seemingly simple problem.
 
-[[links]]
+# Related Links
+These links provide further reading onto the subject matter and some other approaches to our concluded identity.
 
-[[https://www.storyofmathematics.com/n-choose-2/]]
-[[https://nrich.maths.org/7713]]
-[[https://www.jeremykun.com/2011/10/02/n-choose-2/]]
-[[https://math.libretexts.org/Bookshelves/Applied_Mathematics/Applied_Finite_Mathematics_(Sekhon_and_Bloom)/07%3A_Sets_and_Counting/7.06%3A_Combinations-_Involving_Several_Sets]]
+It might be worth saying that I found the identity sort of independently while reading `Discrete Mathematics: Elementary and Beyond` - László Lovász, Jozsef Pelikan, Katalin L. Vesztergombi. With a simple search on the internet it seems that the proof of it using sum of handshakes was also already discovered.
+
+[what is n choose 2?]: https://www.storyofmathematics.com/n-choose-2/
+[Binomial Coefficients]: https://nrich.maths.org/7713
+[N Choose 2 is the Sum of the First N-1 Integers]: https://www.jeremykun.com/2011/10/02/n-choose-2/
+[Combinations- Involving Several Sets]: https://math.libretexts.org/Bookshelves/Applied_Mathematics/Applied_Finite_Mathematics_(Sekhon_and_Bloom)/07%3A_Sets_and_Counting/7.06%3A_Combinations-_Involving_Several_Sets
