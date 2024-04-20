@@ -25,7 +25,7 @@ These links provide further reading into the subject matter and some other appro
 
 It might be worth saying that I found the identity somehow independently while reading `Discrete Mathematics: Elementary and Beyond` - László Lovász, Jozsef Pelikan, Katalin L. Vesztergombi. With a simple search on the internet, it seems that the proof of it using the sum of handshakes was also already discovered.
 
-[what is n choose 2?]: https://www.storyofmathematics.com/n-choose-2/
-[Binomial Coefficients]: https://nrich.maths.org/7713
-[N Choose 2 is the Sum of the First N-1 Integers]: https://www.jeremykun.com/2011/10/02/n-choose-2/
-[Combinations- Involving Several Sets]: https://math.libretexts.org/Bookshelves/Applied_Mathematics/Applied_Finite_Mathematics_(Sekhon_and_Bloom)/07%3A_Sets_and_Counting/7.06%3A_Combinations-_Involving_Several_Sets
+- [what is n choose 2?](https://www.storyofmathematics.com/n-choose-2/)
+- [Binomial Coefficients](https://nrich.maths.org/7713)
+[N Choose 2 is the Sum of the First N-1 Integers](https://www.jeremykun.com/2011/10/02/n-choose-2/)
+- [Combinations- Involving Several Sets](https://math.libretexts.org/Bookshelves/Applied_Mathematics/Applied_Finite_Mathematics_(Sekhon_and_Bloom)/07%3A_Sets_and_Counting/7.06%3A_Combinations-_Involving_Several_Sets)
