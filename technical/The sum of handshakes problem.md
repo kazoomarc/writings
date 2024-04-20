@@ -2,7 +2,7 @@
 
 When I was young, a friend gave me a puzzle, `how many handshakes are there in a meeting of 10 persons where everyone must shake hands once and only once?`. That time I had no means that I could find the answer fast. [pause a minute to try to find the answer].
 
-## Arithmetic progression approach
+## Arithmetic Progression Approach
 The only efficient way for the persons to shake hands is to line them in order something like a line.
 
 [[image]]
@@ -15,7 +15,7 @@ That time I was presented with this problem I had to add these up. I did not kno
 
 Now that we have found out what we were looking for, what about the sum of handshakes of M persons? It is clear from the previous 10-persons that we had $10 - 1$ to find the sum of $n = 9$ first numbers. Then for M persons we have to get the sum of `M-1` terms which is $\frac{n(n + 1)}{2} = \frac{(M-1)((M-1) + 1)}{2} = \frac{M(M-1)}{2}$
 
-## combinatorial approach
+## Combinatorial Approach
 But this is not interesting enough. We can still go back to our original problem `How many handshakes are there in a meeting of 10 persons where everyone must shake everyone once and only once`. We can look at this from a different perspective, the 10-person in a meeting can be taken as a set which makes this a 10-membered set and every handshake happens between two persons and exactly two persons. Then we can find the number of handshakes that are there in a 10-person meeting by counting the number of 2-person subsets that are there in a 10-membered set. And from combinatorics, we know that this is $\binom{n}{r}$, where `n = 2` and `r = 2` making the total $\binom{10}{2} = 45$, which is exactly what we found with the AP formula. We can then find the sum of any M-persons handshakes by $\binom{M}{2}$
 
 The interesting result is that $\binom{M}{2} = \frac{M(M-1)}{2}$
@@ -29,5 +29,5 @@ It might be worth saying that I found the identity somehow independently while r
 
 - [what is n choose 2?](https://www.storyofmathematics.com/n-choose-2/)
 - [Binomial Coefficients](https://nrich.maths.org/7713)
-[N Choose 2 is the Sum of the First N-1 Integers](https://www.jeremykun.com/2011/10/02/n-choose-2/)
+- [N Choose 2 is the Sum of the First N-1 Integers](https://www.jeremykun.com/2011/10/02/n-choose-2/)
 - [Combinations- Involving Several Sets](https://math.libretexts.org/Bookshelves/Applied_Mathematics/Applied_Finite_Mathematics_(Sekhon_and_Bloom)/07%3A_Sets_and_Counting/7.06%3A_Combinations-_Involving_Several_Sets)
