@@ -2,7 +2,7 @@
 
 When I was young, a friend gave me a puzzle, `how many handshakes are there in a meeting of 10 persons where everyone must shake  shake hands once and only once?` . That time I had no means that I could find the answer really fast. [pause a minute to try to find the answer].
 
-The efficient way for the persons to shake hands is to line them in order something like a line.
+The only efficient way for the persons to shake hands is to line them in order something like a line.
 
 [[image]]
 
